@@ -6,7 +6,7 @@ import Main from '../../templates/main/Main';
 
 const GeneralPage = () => {
     return (
-        <div className='w-80 h-full bg-white'>
+        <div className='w-80 h-full bg-white border-r-2 border-light-grey'>
             <Main/>
             <MainLeftSlide/>
         </div>
