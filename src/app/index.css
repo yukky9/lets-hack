@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root,
+#root,
+#docs-root{
+    --white-blue: rgba(220, 236, 251, 1);
+    --blue: rgba(0, 163, 255, 1);
+    --dark-blue: rgb(0, 133, 210);
+    --light-blue: rgba(28, 173, 254, 1);
+    --viol-blue: rgba(78, 85, 255, 1);
+    --light-grey: rgba(0, 0, 0, 0.3);
+    --grey-blue: rgba(124, 141, 176, 1);
+}
+
+input::file-selector-button{
+    display: none;
+}
