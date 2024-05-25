@@ -6,10 +6,12 @@ import Main from '../../templates/main/Main';
 
 const GeneralPage = () => {
     return (
-        <div className='w-80 h-full bg-white border-r-2 border-light-grey'>
+        <div className='flex'>
             <Main/>
+        <div className='w-80 h-full bg-white border-r-2 border-light-grey fixed'>
             <MainLeftSlide/>
         </div>
+            </div>
     );
 };
 
