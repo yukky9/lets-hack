@@ -1,11 +1,11 @@
 import React from 'react';
-
+import image from '../MainIcon/group62.png';
 
 const AddSocialMedia = () => {
     return (
         <div
-            className='bg-white-blue border-2 border-blue text-justify text-blue font-bold w-40 h-10 py-1 px-4 rounded'>
-            <img src=""/>
+            className='bg-white-blue w-20 flex items-center h-7 py-1 px-4 rounded'>
+            <img className='ml-4' src={image} alt='dw' width='10' height='10'/>
         </div>
     );
 };
