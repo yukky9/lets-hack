@@ -1,6 +1,6 @@
 import React from 'react';
 import LeftSlideText from '../../../../atoms/Text/LeftSlideText/LeftSlideText';
-import ic from '../LeftSlideIcon/tasks.png';
+import ic from '../../../../atoms/ImageLogo/LeftSlideIcon/tasks.png';
 
 const SixthTab = () => {
     return (

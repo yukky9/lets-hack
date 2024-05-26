@@ -1,6 +1,6 @@
 import React from 'react';
 import LeftSlideText from '../../../../atoms/Text/LeftSlideText/LeftSlideText';
-import ic from '../LeftSlideIcon/svgexport1.png';
+import ic from '../../../../atoms/ImageLogo/LeftSlideIcon/svgexport1.png';
 
 const TabNotif = () => {
     return (

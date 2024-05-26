@@ -1,6 +1,6 @@
 import React from 'react';
 import LeftSlideText from '../../../../atoms/Text/LeftSlideText/LeftSlideText';
-import ic from "../LeftSlideIcon/glav.png"
+import ic from "../../../../atoms/ImageLogo/LeftSlideIcon/glav.png"
 
 const FirstTab = () => {
     return (

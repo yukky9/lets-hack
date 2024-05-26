@@ -1,5 +1,5 @@
 import React from 'react';
-import icon from '../LeftSlideIcon/svgexport.png';
+import icon from '../../../../atoms/ImageLogo/LeftSlideIcon/svgexport.png';
 
 type Props = {
     text:string

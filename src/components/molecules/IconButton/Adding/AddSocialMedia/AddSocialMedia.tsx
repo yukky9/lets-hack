@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../MainIcon/group62.png';
+import image from '../../../../atoms/ImageLogo/MainIcon/group62.png';
 
 const AddSocialMedia = () => {
     return (

@@ -5,9 +5,9 @@ import HeaderText from '../../atoms/Text/HeaderText/HeaderText';
 
 const Header = () => {
     return (
-        <div className='ml-96 pt-10 w-full flex items-center gap-96'>
-            <HeaderText title='Команда'/>
-            <div className='ml-36 flex items-center px-96 pr-2'>
+        <div className='ml-96 w-auto pt-10'>
+            <div className='box-border flex justify-between items-center'>
+                <HeaderText title='Команда'/>
                 <HeaderButton>Список команд</HeaderButton>
             </div>
         </div>

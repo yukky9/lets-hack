@@ -1,6 +1,6 @@
 import React from 'react';
 import LeftSlideText from '../../../../atoms/Text/LeftSlideText/LeftSlideText';
-import ic from '../LeftSlideIcon/timeline.png';
+import ic from '../../../../atoms/ImageLogo/LeftSlideIcon/timeline.png';
 
 const FourthTab = () => {
     return (
