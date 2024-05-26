@@ -4,7 +4,7 @@ import TeamNameText from '../../../atoms/Text/MainText/TeamNameText';
 
 const Tasks = () => {
     return (
-        <div className='box-border w-auto bg-white rounded-2xl p-4 mb-10'>
+        <div className='box-border w-auto bg-white rounded-2xl p-4 mb-5'>
             <TeamNameText name='Задача'/>
             <LeftSlideText text='Идеальная платформа для хакатонов и IT-соревнований'/>
         </div>
