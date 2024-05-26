@@ -1,9 +1,10 @@
 import React from 'react';
+import GeneralPage from '../GeneralPage/GeneralPage';
 
 const ModalPage = () => {
     return (
-        <div>
-            
+        <div className='blur-lg'>
+            <GeneralPage/>
         </div>
     );
 };

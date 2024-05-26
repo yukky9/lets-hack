@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <div>
             <Header/>
-            <div className='pt-20'>
+            <div className='pt-10'>
             <FirstMain/>
         </div>
         </div>
