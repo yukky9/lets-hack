@@ -4,13 +4,9 @@ import socialIcon from '../../../../atoms/ImageLogo/MainIcon/globe.png';
 
 const OtherIcon = () => {
 
-    const onClick = () =>{
-        alert("Tailwind: https://tailwindcss.com/")
-    }
-
     return (
         <div className='flex gap-2 items-center'>
-            <button onClick={onClick}><img src={socialIcon} alt='social'/></button>
+            <a href='https://tailwindcss.com/'><img src={socialIcon} alt='social'/></a>
             <LightSocialText text='llEHbKU'/>
         </div>
     );

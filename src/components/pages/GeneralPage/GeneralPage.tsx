@@ -11,7 +11,7 @@ const GeneralPage = () => {
             <div className='w-80 h-full bg-white border-r-2 border-light-grey fixed'>
                 <MainLeftSlide/>
             </div>
-                <Main/>
+            <Main/>
         </div>
     );
 };

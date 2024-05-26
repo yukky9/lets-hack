@@ -4,13 +4,9 @@ import LightSocialText from '../../../../atoms/Text/MainText/LightSocialText';
 
 const DiscordIcon = () => {
 
-    const onClick = () =>{
-        alert("Discord Server: https://discord.gg/effjXBrc")
-    }
-
     return (
         <div className='flex gap-2 items-center'>
-            <button onClick={onClick}><img src={socialIcon} alt='social'/></button>
+            <a href='https://discord.gg/effjXBrc'><img src={socialIcon} alt='social'/></a>
             <LightSocialText text='llEHbKU'></LightSocialText>
         </div>
     );

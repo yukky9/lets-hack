@@ -9,10 +9,13 @@ const Main = () => {
         <div>
             <Header/>
             <div className='pt-10'>
-            <FirstMain/>
-        </div>
+                <FirstMain/>
+            </div>
             <div className='pt-3'>
                 <SecondMain/>
+            </div>
+            <div className='ml-96 w-80 mt-10 mb-5'>
+                <a href='https://t.me/letshack_helper_bot' className='text-blue  border-b-2 border-blue font-bold'>Связь с организаторами</a>
             </div>
         </div>
     );

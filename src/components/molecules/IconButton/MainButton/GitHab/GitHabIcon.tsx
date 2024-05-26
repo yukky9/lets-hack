@@ -4,13 +4,9 @@ import socialIcon from '../../../../atoms/ImageLogo/MainIcon/github.png';
 
 const GitHabIcon = () => {
 
-    const onClick = () =>{
-        alert("GitHab: https://github.com/yukky9/lets-hack")
-    }
-
     return (
         <div className='flex gap-2 items-center'>
-            <button onClick={onClick}><img src={socialIcon} alt='social'/></button>
+            <a href='https://github.com/yukky9/lets-hack'><img src={socialIcon} alt='social'/></a>
             <LightSocialText text='llEHbKU'/>
         </div>
     );

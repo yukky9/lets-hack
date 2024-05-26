@@ -4,13 +4,9 @@ import socialIcon from '../../../../atoms/ImageLogo/MainIcon/vk.png';
 
 const VkIcon = () => {
 
-    const onClick = () =>{
-        alert("Vk: https://vk.com/yulyvaw")
-    }
-
     return (
         <div className='flex gap-2 items-center'>
-            <button onClick={onClick}><img src={socialIcon} alt='social'/></button>
+            <a href='https://vk.com/yulyvaw'><img src={socialIcon} alt='social'/></a>
             <LightSocialText text='llEHbKU'/>
         </div>
     );
