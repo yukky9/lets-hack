@@ -9,7 +9,7 @@ import VkInputFeild from '../../molecules/InputFeild/VkInputFeild/VkInputFeild';
 
 const ModalLayout = () => {
     return (
-        <div className='mt-48 ml-64 translate-x-full box-border w-96 h-auto bg-white rounded-3xl text-center pt-10 shadow-2xl'>
+        <div className='mt-48 border-2 border-blue ml-64 translate-x-full box-border w-96 h-auto bg-white rounded-3xl text-center pt-10 shadow-2xl'>
             <ModalText title="Socail Media"/>
             <div className='grid pl-10'>
                 <DiscordInputFeild/>
