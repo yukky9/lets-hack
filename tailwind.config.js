@@ -10,7 +10,8 @@ module.exports = {
         'white-blue': 'var(--white-blue)',
         'light-grey': 'var(--light-grey)',
         'grey-blue': 'var(--grey-blue)',
-        'dark-blue': 'var(--dark-blue)'
+        'dark-blue': 'var(--dark-blue)',
+        'grey-white': 'var(--grey-white)'
       }
     },
   },

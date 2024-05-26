@@ -18,6 +18,7 @@ body {
     --viol-blue: rgba(78, 85, 255, 1);
     --light-grey: rgba(0, 0, 0, 0.3);
     --grey-blue: rgba(124, 141, 176, 1);
+    --grey-white: #F4F8FD;
 }
 
 input::file-selector-button{
